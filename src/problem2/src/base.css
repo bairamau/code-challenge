@@ -1,0 +1,80 @@
+/* self-hosted fonts */
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/Manrope-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/Gilroy-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+}
+
+/* variables */
+:root {
+  /* base palette */
+  --white: rgb(255 255 255);
+  --dark: rgb(10 9 17);
+  --green: rgb(38 85 53);
+  --lavender: rgb(175 205 239);
+  --neutral: rgb(255 255 255 / 0.5);
+
+  /* brand colors */
+  --brand-primary: rgb(255 56 68);
+  --brand-primary-dark: rgb(159 21 29);
+  --brand-primary-darker: rgb(153 34 41);
+
+  /* fonts */
+  --font-base: "Manrope", sans-serif;
+  --font-heading: "Gilroy", sans-serif;
+
+  /* transitions */
+  --transition: 0.3s ease-out;
+
+  /* border-radius */
+  --radius-s: 3px;
+  --radius-m: 5px;
+  --radius-l: 10px;
+}
+
+/* css reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--dark);
+  color: var(--white);
+  line-height: 1.5;
+}
+
+button {
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style-type: none;
+}
+
+menu {
+  padding: 0;
+}
+
+iframe {
+  border: none;
+}

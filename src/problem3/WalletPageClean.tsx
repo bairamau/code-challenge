@@ -1,6 +1,6 @@
 // Comments with code review are in WalletPageMessy.tsx
 
-interface FormattedWalletBalance extends ReturnType<typeof useWalletBalances> {
+interface FormattedWalletBalance extends ReturnType<typeof useWalletBalances>[number] {
   formatted: string;
 }
 

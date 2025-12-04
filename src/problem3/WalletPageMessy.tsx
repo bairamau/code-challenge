@@ -24,7 +24,7 @@ const WalletPage: React.FC<Props> = (props: Props) => {
   //I prefer to move functionality that is not tied to component's lifecycle outside of the component
   // getPriority is a good example of such functionality
 
-  // blockchain could have a narrower type, "string" at least or even
+  // blockchain could have a narrower type, "string" at least
   const getPriority = (blockchain: any): number => {
     switch (blockchain) {
       case "Osmosis":

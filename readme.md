@@ -1,5 +1,5 @@
-# 99Tech Code Challenge #1 #
-
+# 99Tech Code Challenge #1 
+## Deployed problem 2: https://cozy-cannoli-245a46.netlify.app
 Note that if you fork this repository, your responses may be publicly linked to this repo.  
 Please submit your application along with the solutions attached or linked.   
 
